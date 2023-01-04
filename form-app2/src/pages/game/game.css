@@ -1,0 +1,161 @@
+.game {
+    margin-top: 20px;
+    display: flex;
+}
+
+.game main {
+    width: 100%;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.game main .avatar {
+    display: flex;
+    justify-content: end;
+}
+
+.game main .avatar h3 {
+    font-weight: 400;
+    width: 150px;
+
+}
+
+.game main .avatar img {
+    width: 90px;
+}
+
+
+
+.has-scrollbar {
+    padding-bottom: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.has-scrollbar:hover::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 90%);
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 80%);
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: initial mandatory;
+    margin-left: 120px;
+    margin-top: 40px;
+    overflow-x: scroll;
+
+
+}
+
+
+.items {
+    margin-top: 30px;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.items h3 {
+    margin-bottom: 50px;
+}
+
+.Rectangle h3 {
+    margin-bottom: 70px;
+}
+
+.Rectangle img {
+    width: 500px;
+}
+
+@media (max-width : 991px) {
+    .cards {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width : 600px) {
+    .Rectangle img {
+        width: 430px;
+    }
+
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.Rectangle {
+    position: relative;
+}
+
+.caption-rectangle {
+    position: absolute;
+    left: 0;
+    padding: 0 0 30px 50px;
+    width: 100%;
+    bottom: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    color: whitesmoke;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.7;
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 35px 35px;
+    text-transform: uppercase;
+}
+
+.text-top {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text-top p:last-of-type {
+    font-size: 15px;
+    text-transform: lowercase;
+
+}
+
+.clipart {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background: #32FB00;
+    box-shadow: 0px 0px 567px #32FB00, 0px 0px 324px #32FB00, 0px 0px 189px #32FB00, 0px 0px 94.5px #32FB00, 0px 0px 27px #32FB00, 0px 0px 13.5px #32FB00;
+}
+
+.clipart img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px wheat;
+}

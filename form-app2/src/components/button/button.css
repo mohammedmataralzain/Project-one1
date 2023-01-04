@@ -1,0 +1,22 @@
+.buttonF {
+    border: none;
+    width: 426px;
+    height: 64px;
+    border-radius: 7px;
+    background: #1565D8;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.buttonS{
+    border: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 150px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}

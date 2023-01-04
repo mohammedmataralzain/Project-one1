@@ -1,0 +1,55 @@
+.login {
+    width: fit-content;
+    padding-left: 80px;
+    padding-right: 90px;
+    padding-top: 50px;
+    color: black;
+}
+
+.form-section-login{
+    padding-top: 150px;
+    padding-left: 120px;
+}
+
+.form-section-login h1 {
+    font-size: 42px;
+}
+
+.form-section-login h1,
+.form-section-login p, .rigth-befor .img {
+    text-align: center;
+   
+
+}
+.form-section-login .headingForm p {
+    color: #696F79;
+}
+.form-section-login .img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+
+
+.form-section-login span {
+    color: #1565D8;
+}
+
+.question {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.question button{
+    all: unset;
+    color: #1565D8;
+}
